@@ -11,3 +11,15 @@ h2 {
     font-size: 16pt;
 }
 
+img {
+    width: 128px;
+    height: 128px;
+}
+
+.navbar {
+    background-color: #9C9C9C; /* pearl grey */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
