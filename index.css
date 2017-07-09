@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #SD9CEC;
+}
+
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.leah-panel {
+    position: relative;
+    width: 100%;
+}
+
+.leah-header-panel {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.leah-footer {
+  display: block;
+  text-align: center;
+  font: bold 12px/24px Helvetica, Sans-Serif;
+  background-color: transparent;
+}
