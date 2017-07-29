@@ -3,73 +3,65 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
-				   maximum-scale=1.0, user-scalable=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    		   maximum-scale=1.0, user-scalable=1"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"
-	  href="boostrap/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="master-website.css">
+    <link rel="stylesheet" type="text/css" href="boostrap/bootstrap-theme.min.css">
     <title > Leah Holden - Projects </title>
 </head>
 
 <body>
-<div class="container-fluid">
-  <h1 class="bulletin"> Projects </h1>
-<div class="row">
-<div class="col-md-2"> </div>
-<div class="col-md-8">
-    <ul class="nav nav-pills nav-justified">
-    	<li role="presentation" role="active">
-		<a href="index.html"> HOME </a> </li>
-    	<li role="presentation"> 
-		<a href="bio.html"> BIO </a> </li>
-    	<li role="presentation">
-		<a href="resume.html"> RESUME </a> </li>
-    	<li role="presentation"> 
-		<a href="projects.html"> PROJECTS </a></li>
-    </ul>
-</div>
-<div class="col-md-2"> </div>
-  </div>
-  <div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-2">
-  <a href="https://github.com/lholde02"> Github Profile </a>
-  </div>
-  <div class="col-md-2">
-  <p> More coming soon!</p>
-  </div>
-  </div class="col-md-9"></div>
-  </div>
-
-<div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-10">
-	<h1> Events </h1>
-</div>
-<div class="col-md-1"></div>
-</div>
-
-<div class="row">
-   <div class="col-md-1"> </div>
-   <div class="col-md-5"> Polyhack - Fall 2016</div>
-   <div class="col-md-6"> </div>
-</div>
-
-<div class="row">
-    <div class="col-md-1"> </div>
-    <div class="col-md-2"> <a href="mis-match.herokuapp.com"> Mismatch </a>
+  <div class="leah-panel">
+    <img src="photos/city.jpg" alt="An image of Vancouver"/>
+    <div class="leah-header-panel">
+      <span> Projects </span>
+      <ul class="nav nav-pills">
+         <li class="active">
+           <a href="index.html"> HOME </a>
+         </li>
+         <li>
+           <a href="bio.html"> ABOUT ME </a>
+         </li>
+         <li>
+             <a href="resume.pdf">RESUME</a>
+         </li>
+         <li>
+           <a href="projects.html"> PROJECTS </a>
+         </li>
+     </ul>
     </div>
-    <div class="col-md-8"> A mobile-friendly website designed to help
-	colorblind or other visually impaired persons pick out outfits.
-	We used an API to give us the main colors in a photo, which we
-	then used in our algorithm to give the user feedback on the 
-	colors of the clothing items, the saturation of the colors,
-	and how much the colors contrasted.
+    <div class="leah-body-panel">
+      <div class="separate-panels">
+        <span> Wayfair Hackathon Summer 2017 Project:
+        </span>
+        <p class="body-text">
+          Created this internal tool with a fellow intern during the Wayfair Hackathon
+          in order to fulfill a business need to simplify testing marketing emails within
+          a development environment.
+        </p>
+      </div>
+      <div class="separate-panels">
+        <span> Polyhack Fall 2016 Project:
+          <a href="http://mis-match.herokuapp.com/"> mismatch </a>
+        </span>
+        <p class="body-text"> A mobile-friendly website designed to help
+        	colorblind or other visually impaired persons pick out outfits.
+        	We used an API to give us the main colors in a photo, which we
+        	then used in our algorithm to give the user feedback on the
+        	colors of the clothing items, the saturation of the colors,
+        	and how much the colors contrasted.
+        </p>
     </div>
-    <div class="col-md-1"></div>
+    <div class="separate-panels">
+      <span>See more at my GitHub profile:
+        <a href="https://github.com/lholde02"> Leah Holden </a>
+      </span>
+    </div>
+  </div>
 </div>
-
+<div class="leah-footer">
+  Made By Leah Holden
 </div>
 </body>
 </html>

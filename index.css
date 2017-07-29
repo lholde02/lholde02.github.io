@@ -21,7 +21,7 @@ img {
     width: 100%;
 }
 
-.leah-header-panel {
+.leah-header-panel, .leah-body-panel, .leah-resume-panel {
   position: absolute;
   top: 100px;
   left: 0;
@@ -34,9 +34,26 @@ img {
   padding: 10px;
 }
 
+.leah-body-panel {
+  top: 400px;
+}
+
 .leah-footer {
   display: block;
   text-align: center;
   font: bold 12px/24px Helvetica, Sans-Serif;
   background-color: transparent;
+}
+
+.body-text {
+  font: bold 20px Helvetica, Sans-Serif;
+}
+
+.contact-me {
+  padding-top: 20px;
+  font: bold 18px Helvetica, Sans-Serif;
+}
+
+.separate-panels {
+  padding-top: 10px;
 }
