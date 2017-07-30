@@ -7,30 +7,40 @@
 <link rel="stylesheet" type="text/css" href="index.css"/>
 <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="boostrap/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title> Leah Holden Personal Site </title>
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Leah Holden</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="bio.html"> About Me </a> </li>
+          <li><a href="resume.pdf"> Resume </a> </li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="leah-panel">
     <img src="photos/canada_leah.jpg" alt="A picture of Leah Holden"/>
-    <div class="leah-header-panel">
-      <span> Leah Holden </span>
-      <ul class="nav nav-pills">
-         <li class="active">
-           <a href="index.html"> HOME </a> </li>
-         <li>
-           <a href="bio.html"> ABOUT ME </a> </li>
-         <li>
-             <a href="resume.pdf">RESUME</a>
-         </li>
-         <li>
-           <a href="projects.html"> PROJECTS </a>
-         </li>
-     </ul>
+    <div class="leah-body-panel">
+      <div class="separate-panels">
+        Welcome to my website!
+      </div>
     </div>
-  </div>
-  <div class="leah-footer">
-    Made By Leah Holden
   </div>
 </body>
 </html>

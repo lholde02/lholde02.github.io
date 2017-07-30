@@ -3,76 +3,81 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,
-    		   maximum-scale=1.0, user-scalable=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css"/>
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="boostrap/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title > Leah Holden - Projects </title>
 </head>
 
 <body>
-  <div class="leah-panel">
-    <img src="photos/city.jpg" alt="An image of Vancouver"/>
-    <div class="leah-header-panel">
-      <span> Projects </span>
-      <ul class="nav nav-pills">
-         <li class="active">
-           <a href="index.html"> HOME </a>
-         </li>
-         <li>
-           <a href="bio.html"> ABOUT ME </a>
-         </li>
-         <li>
-             <a href="resume.pdf">RESUME</a>
-         </li>
-         <li>
-           <a href="projects.html"> PROJECTS </a>
-         </li>
-     </ul>
-    </div>
-    <div class="leah-body-panel body-text">
-      <div class="separate-panels">
-        <span class="panel-section-title"> Wayfair Hackathon Summer 2017 Project:
-          <a href="https://devpost.com/software/dev-email-tracker"> Dev Email Tracker </a>
-        </span>
-        <p class="body-text">
-          <p>
-            - Created an internal tool with a fellow intern during the Wayfair Hackathon
-            in order to fulfill a business need to simplify testing marketing emails within
-            a development environment.
-          </p>
-          <p>
-            - Worked to create the MVC backend and laid down the MVP of the React.js UI
-          </p>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Leah Holden</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bio.html"> About Me </a> </li>
+            <li><a href="resume.pdf"> Resume </a> </li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="leah-panel">
+      <img src="photos/city.jpg" alt="An image of Vancouver"/>
+      <div class="leah-body-panel body-text">
+        <div class="separate-panels">
+          <span class="panel-section-title"> Wayfair Hackathon Summer 2017 Project:
+            <a href="https://devpost.com/software/dev-email-tracker"> Dev Email Tracker </a>
+          </span>
+          <p class="body-text">
+            <p>
+              - Created an internal tool with a fellow intern during the Wayfair Hackathon
+              in order to fulfill a business need to simplify testing marketing emails within
+              a development environment.
+            </p>
+            <p>
+              - Worked to create the MVC backend and laid down the MVP of the React.js UI
+            </p>
+            </p>
+        </div>
+        <div class="separate-panels">
+          <span class="panel-section-title"> Polyhack Fall 2016 Project:
+            <a href="http://mis-match.herokuapp.com/"> Mismatch </a>
+          </span>
+          <p class="body-text">
+            <p>
+              - Created a mobile-friendly website designed to help
+            	colorblind or other visually impaired persons pick out outfits.
+            </p>
+            <p>
+            	- We used an API to give us the main colors in a photo, which we
+            	then used in our algorithm to give the user feedback on the
+            	colors of the clothing items, the saturation of the colors,
+            	and how much the colors contrasted.
+            </p>
           </p>
       </div>
       <div class="separate-panels">
-        <span class="panel-section-title"> Polyhack Fall 2016 Project:
-          <a href="http://mis-match.herokuapp.com/"> Mismatch </a>
+        <span class="panel-section-title">See more at my GitHub profile:
+          <a href="https://github.com/lholde02"> Leah Holden </a>
         </span>
-        <p class="body-text">
-          <p>
-            - Created a mobile-friendly website designed to help
-          	colorblind or other visually impaired persons pick out outfits.
-          </p>
-          <p>
-          	- We used an API to give us the main colors in a photo, which we
-          	then used in our algorithm to give the user feedback on the
-          	colors of the clothing items, the saturation of the colors,
-          	and how much the colors contrasted.
-          </p>
-        </p>
+      </div>
+      <div class="separate-panels leah-footer">
+        Made By Leah Holden
+      </div>
     </div>
-    <div class="separate-panels">
-      <span class="panel-section-title">See more at my GitHub profile:
-        <a href="https://github.com/lholde02"> Leah Holden </a>
-      </span>
-    </div>
-  </div>
-</div>
-<div class="leah-footer">
-  Made By Leah Holden
 </div>
 </body>
 </html>
